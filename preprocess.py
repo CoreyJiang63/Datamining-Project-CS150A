@@ -40,7 +40,7 @@ def generate_section(hierac):
 
 unit_sep = udf(generate_unit, StringType())
 section_sep = udf(generate_section, StringType())
-train = train.withColumn('step Unit', unit_sep(train['step Hierarchy']))
+train = train.withColumn('Problem Unit', unit_sep(train['Problem Hierarchy']))
 test = test.withColumn('Problem Unit', unit_sep(test['Problem Hierarchy']))
 train = train.withColumn('Problem Section', section_sep(train['Problem Hierarchy']))
 test = test.withColumn('Problem Section', section_sep(test['Problem Hierarchy']))
@@ -97,7 +97,7 @@ for c in discrete_cols:
 cfa = train.filter(train['Correct First Attempt']=='1')
 
 # Group By Person
-global train, test
+
 student_dict = {}
 correct_studentGroup = cfa.groupby('Anon Student Id').count()
 studentGroup = train.groupby('Anon Student Id').count()
