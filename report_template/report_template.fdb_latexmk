@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1673016661 "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.tex" "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.pdf" "report_template" 1673016663
+["pdflatex"] 1673366569 "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.tex" "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.pdf" "report_template" 1673366607
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1631798847 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1631798707 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1631798970 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -15,6 +15,7 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1631798524 908 2921f8a10601f252058503cc6570e581 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1631798524 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1631798524 940 228d6584342e91276bf566bcf9716b83 ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1631798524 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb" 1631798707 169201 651a6333c3213b38091f54d2ab2d2cd6 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1631799948 44729 fea0975e20ec51c992338362f05f1146 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1631799948 46026 687528a208fbfc1f00832bb96cccebbb ""
@@ -98,16 +99,16 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1631800173 5134881 645d5d43b8ff73aa9709163a03c4501a ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1631800256 1380826 7f3a4107167c9bb49e69d2fb775a16f6 ""
   "c:/texlive/2021/texmf.cnf" 1631800156 713 e69b156964470283e0530f5060668171 ""
-  "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.aux" 1673016662 1416 9d569ced796e482052e3563f51f781c0 ""
-  "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.tex" 1669884983 4217 069b0b115210b0920a0e0706f0e9cb1e ""
+  "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.aux" 1673366571 1416 6cfe501ed513d8f444082f60a159c68c ""
+  "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.tex" 1673366606 8195 32c2e863666ff475e27f7f6be3e3c738 ""
   "nips_2017.sty" 1669884982 10318 ae1d1fadbb2aafdc325cd498bd095e54 ""
-  "report_template.aux" 1673016662 1416 9d569ced796e482052e3563f51f781c0 "pdflatex"
-  "report_template.out" 1673016662 1037 60131475ff729e0f6953023f67b69a3b "pdflatex"
-  "report_template.tex" 1669884983 4217 069b0b115210b0920a0e0706f0e9cb1e ""
+  "report_template.aux" 1673366571 1416 6cfe501ed513d8f444082f60a159c68c "pdflatex"
+  "report_template.out" 1673366571 1037 60131475ff729e0f6953023f67b69a3b "pdflatex"
+  "report_template.tex" 1673366606 8195 32c2e863666ff475e27f7f6be3e3c738 ""
   (generated)
-  "report_template.out"
   "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.pdf"
+  "report_template.log"
   "report_template.pdf"
   "report_template.aux"
   "d:/SH TECH/CS150A/CS150A_project/report_template/report_template.log"
-  "report_template.log"
+  "report_template.out"
