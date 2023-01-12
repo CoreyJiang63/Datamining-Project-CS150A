@@ -117,10 +117,21 @@ Problem Unit, Problem Section, Step Name, Personal Rate, Problem Rate, Step Rate
 \textcolor{cyan}{Instruction: \\
 In this section, you should describe the learning algorithm you choose and state the reasons why you choose it.}\\\\
 \textbf{Your work below:}\\
+Before training, we find needed feature extracted from "Opportunity(Default)" is already completed, so we drop this original column to form a all-numerical-features dataset.\\
+
 
 \section{Hyperparameter selection and model performance}
 \textcolor{cyan}{Instruction: \\
 In this section, you should describe the way you choose the hyperparameters of your model, also compare the performance of the model with your chosen hyperparamters with models with sub-optimal hyperparameters}\\\\
 \textbf{Your work below:}\\
+
 \section{PySpark implementation (optional)}
+Our project uses PySpark particularly for Data Cleaning and Feature Engineering. To deal with the large size of training dataset,
+we consider using distributed algorithms for our preprocessing in a bid to shorten the running time.\\
+Specifically, we make the most of this external library by calling \textbf{pyspark.sql.functions}. We first abstract our algorithm as a function
+(particularly when we need to calculate some new features based on data of one certain column), and then call udf to convert our function.
+By doing so, we could do our feature engineering with much higher efficiency.\\
+We also use \textbf{pyspark.sql.types} to specify our desired data type.
+Some aggregation functions are also used in our code.
+
 \end{document}
