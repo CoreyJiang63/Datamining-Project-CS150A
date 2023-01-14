@@ -118,12 +118,25 @@ Problem Unit, Problem Section, Step Name, Personal Rate, Problem Rate, Step Rate
 In this section, you should describe the learning algorithm you choose and state the reasons why you choose it.}\\\\
 \textbf{Your work below:}\\
 Before training, we find needed feature extracted from "Opportunity(Default)" is already completed, so we drop this original column to form a all-numerical-features dataset.\\
+As to our choice of classification algorithm, we mainly select Decision Tree, KNN, Random Forest, XGBoost, Adaboost, Gradient Decision Tree,
+Logistic Regression and Multi-layer Perceptron Regressor. Additionally, we consider bagging to reduce variance within this noisy dataset.\\
+The intuition behind this is that our selection includes both parametric and nonparametric methods, as well as the ensemble learning method like bagging.
+Also both conventional and novel methodology is contained in our consideration. \\
+Without hyperparameter tuning, the bare algorithm performance is shown as below.\\
+\includegraphics[width=1\linewidth]{original.png}
 
 
 \section{Hyperparameter selection and model performance}
 \textcolor{cyan}{Instruction: \\
 In this section, you should describe the way you choose the hyperparameters of your model, also compare the performance of the model with your chosen hyperparamters with models with sub-optimal hyperparameters}\\\\
 \textbf{Your work below:}\\
+First, we try to normalize the data to see whether a performance improvement could be observed.
+In particular, we only normalize features with real-valued meanings, namely Problem View, Correct First Attempt, KC Count, Opportunity Avg, 
+Personal Rate, Problem Rate, Step Rate, and KC Rate. However, our expected outcome never emerged. Our result is shown as below.\\
+\includegraphics[width=1\linewidth]{normalized.png}
+
+In our next step, we consider optimization of these regressors.
+
 
 \section{PySpark implementation (optional)}
 Our project uses PySpark particularly for Data Cleaning and Feature Engineering. To deal with the large size of training dataset,
