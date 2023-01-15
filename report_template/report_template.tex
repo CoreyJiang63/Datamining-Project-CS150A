@@ -144,7 +144,10 @@ We optimize RandomForestClassifier's parameters.
 \includegraphics[width=1\linewidth]{optimization.png}
 The final optimized RandomForest RMSE is 0.359236.Detailed process and result is in trainlog.md.
 \\For Tree bagging,we firstly want to optimize DecisionTree's parameters,but its effect is not as good as we expected.Then we optimize Tree Bagging's parameters.
-\\The final optimized Tree Bagging RMSE is 0.363042,which is worse than RandomForest. Detailed process and result is in trainlog.md.
+\\The final optimized Tree Bagging RMSE is 0.363042,which is worse than RandomForest. Detailed process and result is in trainlog.md.\\
+Our final result is saved in \textbf{new\_test.csv}.\\
+
+
 \section{PySpark implementation (optional)}
 Our project uses PySpark particularly for Data Cleaning and Feature Engineering. To deal with the large size of training dataset,
 we consider using distributed algorithms for our preprocessing in a bid to shorten the running time.\\
